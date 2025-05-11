@@ -1,0 +1,9 @@
+[package]
+name = "uplc-debug"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+uplc_1_1_3 = { package = "uplc", git = "https://github.com/aiken-lang/aiken.git", rev = "3d77b5c378ce404cddd9a1f111906d72fd46fc83", default-features = false }
+uplc_1_1_17 = { package = "uplc", git = "https://github.com/aiken-lang/aiken.git", rev = "c3a7fba28232341dd5b3e60854c99a6f2c2a6c77", default-features = false }
+hex = "0.4.3"
